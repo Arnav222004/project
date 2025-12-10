@@ -1,5 +1,5 @@
 // src/services/predictionService.js
-const API_URL = 'http://127.0.0.1:5000';
+const API_URL = import.meta.env.VITE_AI_API_URL || 'https://smart-park-private.onrender.com';
 
 export const predictionService = {
   async getPrediction(parkingId, totalSlots, date, time) {
