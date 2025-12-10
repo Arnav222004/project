@@ -12,7 +12,7 @@ dist
 dist-ssr
 *.local
 
-# Editor directories and files
+# --- 1. User's Editor Settings ---
 .vscode/*
 !.vscode/extensions.json
 .idea
@@ -22,3 +22,20 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# --- 2. Node.js  ---
+node_modules/
+dist/
+build/
+.env
+
+# --- 3. Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.pytest_cache/
+ml_server/__pycache__/
+ml_server/venv/

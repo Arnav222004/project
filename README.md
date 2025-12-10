@@ -26,7 +26,7 @@
 * **Scikit-Learn:** Uses a **Random Forest Regressor** to train on historical parking data.
 * **Pandas & NumPy:** For data processing and mock data generation.
 
----
+
 
 ## 🚀 How to Run the Project Locally
 
