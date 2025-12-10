@@ -4,7 +4,7 @@ import { GoogleMap, LoadScript, Marker, InfoWindow } from '@react-google-maps/ap
 import { MapPin, Navigation, Filter, Loader, Target } from 'lucide-react';
 import ParkingCard from '../components/ParkingCard';
 import SearchBar from '../components/SearchBar';
-import FilterPanel from '../components/FilterPanel';
+import FilterPanel from '../components/Filterpanel';
 import { 
   getNearbyParking, 
   getUserLocation, 
